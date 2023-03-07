@@ -32,7 +32,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 700px;
+  margin: auto;
+
 }
